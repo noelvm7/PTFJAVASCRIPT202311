@@ -1,0 +1,14 @@
+let edad = 36;
+const nombre = "NOEL VARGAS";
+let estudiante = true;
+
+function doble(numero){
+    return numero*2;
+}
+dobleNumero = doble(edad)
+console.log("El doble de mi edad es:", dobleNumero);
+
+console.log(`Mi nombre es ${nombre}, 
+            mi edad es de ${edad} años, 
+            y ${estudiante ? 'soy estudiante' : 'no soy estudiante'} 
+            y el doble de mi edad es ${dobleNumero}`);
